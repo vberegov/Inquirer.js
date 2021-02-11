@@ -28,12 +28,7 @@
     "nyc": "^15.0.0",
     "sinon": "^9.0.0"
   },
-  "scripts": {
-    "test": "nyc mocha test/**/* -r ./test/before",
-    "posttest": "nyc report --reporter=text-lcov > ../../coverage/nyc-report.lcov",
-    "prepublishOnly": "cp ../../README.md .",
-    "postpublish": "rm -f README.md"
-  },
+  "scripts": {},
   "repository": "snyk/Inquirer.js",
   "license": "MIT",
   "dependencies": {
